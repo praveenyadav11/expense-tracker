@@ -1,0 +1,93 @@
+body{
+   font-family: "Comfortaa", sans-serif;
+}
+
+
+
+.parent{
+  position: relative;
+  height: 100vh;
+  border: 2px solid black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.solid-circle{
+  height: 750px;
+  width: 750px;
+  background-color:#476ef7;
+  border-radius: 50%;
+  position: absolute;
+  right:-375px;
+  top:-120px;
+  z-index: 1;
+
+}
+
+.header-home{
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 20px;
+  top: 10px;
+
+}
+
+
+
+#click-here-btn{
+  color: #476ef7;
+  background-color:white;
+  font-size: large;
+  font-weight: 700;
+  box-shadow: 4px 4px 2px rgba(0,0,0,0.5);
+}
+
+
+#Name{
+  color: #476ef7;
+  font-size: 150px;
+}
+
+.form-floating{
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 8px;
+}
+
+#login{
+  background-color: #476ef7;
+  color: white;
+  padding: 5px 25px;
+}
+
+.main-content{
+  margin-left: 20px;
+}
+
+@media only screen and (max-width:768px){
+  .solid-circle{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    right: -150px;
+    top:-115px;
+
+  }
+  #Name{
+    color: black;
+  }
+  #login{
+  background-color:black;
+  
+}
+
+#click-here-btn{
+  color:black;
+}
+
+}
